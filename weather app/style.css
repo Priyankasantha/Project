@@ -1,0 +1,115 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/photorealistic-style-clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 100vh;
+  }
+  .weatherForm{
+    margin-top: 200px;
+    display: inline-flex;
+    margin-bottom: 40px;
+  }
+  .cityInput{
+   
+    margin-right: 90px;
+    padding: 10px;
+    padding-left: 100px;
+    font-size: 1rem;
+    font-weight: bold;
+    border:none;
+    border-radius: 10px;
+    width:300px;
+    background-color: rgba(0, 0, 255, 0.650);
+    color:rgba(255, 255, 255, 0.881) ;
+  
+  }
+  .cityInput::placeholder{
+    color:rgba(255, 255, 255, 0.881);
+    
+  }
+  .cityInput[type="text"]:hover{
+    background-color:rgba(0, 0, 255,  0.998) ;
+   
+  }
+  
+  button[type="submit"]{
+ 
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color:rgba(0, 0, 255, 0.650);
+    color: rgba(255, 255, 255, 0.881);
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+  }
+  button[type="submit"]:hover{
+    background-color:rgba(0, 0, 255, 0.998) ;
+  }
+  .card{
+    background: linear-gradient(180deg,hsla(215, 80%, 46%, 0.816),hsla(40, 100%, 50%, 0.575));
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%,0.516);
+    width: 100px;
+    height: 400px;
+    padding-left: 80px;
+   margin-left:130px;
+   margin-top: 20px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-width: 300px;
+   
+  }
+ .cityDisplay{
+    font-weight: bold;
+    font-size: 2rem;
+    color:  rgb(26, 25, 25);
+    padding-top: 10px;
+    margin-left: -70px
+
+ }
+ .tempDisplay{
+    font-weight: bold;
+    font-size: 2rem;
+    color:  rgb(26, 25, 25);
+    margin-left: -40px;
+
+ }
+ .humidityDisplay{
+    color: rgb(26, 25, 25);
+    font-weight:bold ;
+    margin-left: -40px;
+
+    
+ }
+ .descDisplay{
+    color: rgb(9, 9, 9);
+    font-weight: bold;
+    margin-left: -70px;
+    margin-top: -10px;
+    text-transform:capitalize;
+   
+   
+   
+}
+ .weatherEmoji{
+    
+    margin: 0;
+    font-size: 7.5rem;
+    margin-left: -75px;
+    margin-top: -25px;
+
+  
+ }
+ .errorDisplay{
+    
+    color:  rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: -25px;
+ }
